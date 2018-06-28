@@ -1,0 +1,16 @@
+.chipsets:
+input i0
+input i1
+input i2
+output o0
+output o1
+4001 and
+output o3
+
+.links:
+i0:1 and:1
+i1:1 and:2
+o0:1 and:3
+i2:1 and:5
+o1:1 and:4
+o3:1 and:10

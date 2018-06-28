@@ -1,0 +1,25 @@
+.chipsets:
+input i0
+input i1
+input i2
+input i3
+output o0
+4081 and
+4071 or
+
+.links:
+i0:1 and:1
+i1:1 and:2
+
+
+#and:3 or:1
+or:1 and:3
+
+
+i2:1 and:5
+i3:1 and:6
+
+#and:4 or:2
+or:2 and:4
+
+o0:1 or:3
